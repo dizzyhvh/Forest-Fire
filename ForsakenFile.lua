@@ -1,3 +1,7 @@
-local e = require(game.ReplicatedStorage.Modules.Network)
+local e = {}
 
 local AnotherOption = e
+
+e.AnotherOption = AnotherOption
+
+return e
