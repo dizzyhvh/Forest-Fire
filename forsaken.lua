@@ -346,7 +346,7 @@ local MyButton = Creditss:AddButton({
 	Text = '<font color="rgb(0,255,0)">[PLAY SIGMA MUSIC]</font>!',
 	Func = function()
         local response = request({
-            Url = "https://raw.githubusercontent.com/dizzyhvh/Forest-Fire/refs/heads/main/Don't%20You%20Forget%20(Reprise)%20%20%20Hazbin%20Hotel%20Season%202%20%20%20Prime%20Video.mp3",
+            Url = "https://raw.githubusercontent.com/dizzyhvh/Forest-Fire/refs/heads/main/Don't%20You%20Forget%20(Reprise)%20Sing-Along%20-%20Hazbin%20Hotel%20S2%20%20%20Prime%20Video.mp3",
             Method = "GET"
         })
 
@@ -1058,7 +1058,7 @@ local function CheckIfIsASprayPaint(child: Model)
                 end
             end
         end
-
+        if not ClosestObject then return end
         Sprays[ClosestObject] = {
             Player = Player,
             MODELSpray = child,
